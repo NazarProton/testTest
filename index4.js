@@ -23,7 +23,7 @@
 
 document.querySelector('#test').addEventListener
 ('click' , () => {
-    fetch('./file.json')
+    fetch('file.json')
         .then(res => res.json())
         .then(file => {
             file.forEach(item => {
